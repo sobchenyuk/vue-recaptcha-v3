@@ -76,8 +76,8 @@ In some cases it's necessary to interact with the reCAPTCHA-v3 instance, which p
 const recaptcha = this.$recaptchaInstance
 
 // Hide reCAPTCHA badge:
-recaptcha.hideBadge()
+recaptcha?.hideBadge()
 
 // Show reCAPTCHA badge:
-recaptcha.showBadge()
+recaptcha?.showBadge()
 ```  
